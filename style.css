@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+  
+}
+body{
+    background-color: hsl(226, 43%, 10%);
+
+}
+.main{
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    margin-left: 350px;
+    margin-top: 150px;
+   
+}
+.main img{
+    width: 70px;
+    margin-left: 190px;
+    margin-top: -1px;
+}
+.bg-icon-work{
+    background-color: hsl(15, 100%, 70%);
+    width:270px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.bg-icon-play{
+    background-color: hsl(195, 74%, 62%);
+    width:270px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.bg-icon-study{
+    background-color: hsl(348, 100%, 68%);
+    width:270px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.bg-icon-exercise{
+    background-color: hsl(145, 58%, 55%);
+    width:270px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.bg-icon-social{
+    background-color: hsl(264, 64%, 52%);
+    width:270px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.bg-icon-self-care{
+    background-color: hsl(43, 84%, 65%);
+    width:270px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.content{
+    background-color: hsl(235, 46%, 20%);
+    width:270px;
+    color: white;
+    position: relative;
+    margin-top: -29px;
+    border-radius: 15px;
+
+}
+.content img{
+    width: 30px;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 200px;
+}
+.social .content{
+    margin-top: -53px;
+}
+.exercise .content{
+    margin-top: -11px;
+}
+.exercise, .social, .self-care{
+    margin-top: 50px;
+}
+.aspect{
+    padding: 23px;
+    font-size: 20px;
+}
+.present-time{
+    padding: 0px 22px;
+    font-size: 40px;
+}
+.previous-time{
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 23px;
+
+}
+.report{
+    margin-top: 0px;
+    margin-left: 110px;
+    position: absolute;
+    background-color: hsl(235, 46%, 20%);
+    color: white;
+    border-radius: 10px;
+}
+.report p{
+    margin:22px;
+    cursor: pointer;
+    color:whitesmoke;
+
+}
+.subject{
+    background-color: hsl(235, 45%, 61%);
+    width:220px;
+    border-radius: 10px;
+}
+.subject img{
+    margin: 20px;
+}
+.subject p{
+    color: rgb(201, 200, 200);
+    margin: 10px 20px;
+}
+.subject h2{
+    color:white;
+    font-size: 40px;
+    font-weight: 200;
+    margin: 20px;
+    padding-bottom: 70px;
+}
+
+
+@media screen and (max-width:375px) {
+    body{
+        
+        max-width: 375px;
+    }
+    .main{
+        display:block;
+        margin: 0px;
+    }
+    .report{
+        margin: 0px;
+        position:relative;
+    }
+    .time{
+        margin-left: 25px;
+    }
+    .time p{
+        display: inline-block;
+        margin: 25px;
+    }
+    .subject p{
+        margin: -80px 110px;
+    }
+    .subject h2{
+        margin: 85px 110px;
+        font-size: 20px;
+    }
+    .subject{
+        width:345px;
+        margin:5px;
+        height:120px;
+    }
+    .subject img{
+        width:70px;
+    }
+}

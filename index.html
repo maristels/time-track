@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="report">
+    <div class="subject">
+  <img src="images/image-jeremy.png" alt="image-jeremy" width="60px" class="image-jeremy">
+  <p>Report for</p>
+  <h2>Jeremy Robson</h2>
+</div>
+ <div class="time">
+<p class="myclass" onclick="loadDataForDaily()">Daily</p>
+  <p onclick="loadDataForWeekly()"> Weekly</p>
+  <p onclick="loadDataForMonthly()">Monthly</p>
+</div>
+</div>
+
+<div class="main">
+<div class="work">
+  <div class="bg-icon-work">
+  <img src="images/icon-work.svg" alt="icon-work" class="icon-work">
+</div>
+<div class="content">
+ <p class="aspect"> Work</p>
+ <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+  <p class="present-time">0hrs <!-- daily --></p>
+ <p class="previous-time"> Previous - 0hrs <!-- daily --></p>
+</div>
+
+</div>
+
+<div class="play">
+  <div class="bg-icon-play">
+  <img src="images/icon-play.svg" alt="icon-play" class="icon-play">
+</div>
+<div class="content">
+  <p class="aspect">Play</p>
+  <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+  <p class="present-time">0hr <!-- daily --></p>
+ <p class="previous-time"> Previous - 0hrs <!-- daily --></p>
+</div>
+ 
+</div>
+
+<div class="study">
+  <div class="bg-icon-study">
+  <img src="images/icon-study.svg" alt="icon-study" class="icon-study">
+</div>
+<div class="content">
+ <p class="aspect"> Study</p>
+ <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+ <p class="present-time"> 0hrs <!-- daily --></p>
+ <p class="previous-time"> Previous - 0hr <!-- daily --></p>
+</div>
+
+</div>
+
+<div class="exercise">
+  <div class="bg-icon-exercise">
+  <img src="images/icon-exercise.svg" alt="icon-exercise" class="icon-exercise">
+</div>
+<div class="content">
+  <p class="aspect">Exercise</p>
+  <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+  <p class="present-time">0hr <!-- daily --></p>
+ <p class="previous-time"> Previous - 0hr <!-- daily --></p>
+</div>
+</div>
+
+<div class="social">
+  <div class="bg-icon-social">
+  <img src="images/icon-social.svg" alt="icon-social" class="icon-social">
+</div>
+<div class="content">
+ <p class="aspect"> Social</p>
+ <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+  <p class="present-time">0hr <!-- daily --></p>
+  <p class="previous-time">Previous - 0hrs <!-- daily --></p>
+</div>
+</div>
+
+<div class="self-care">
+  <div class="bg-icon-self-care">
+  <img src="images/icon-self-care.svg" alt="icon-self-care" class="icon-self-care">
+</div>
+<div class="content">
+  <p class="aspect">Self Care</p>
+  <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+ <p class="present-time"> 0hrs <!-- daily --></p>
+ <p class="previous-time"> Previous - 1hr <!-- daily --></p>
+</div>
+</div>
+</div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
